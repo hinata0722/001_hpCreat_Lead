@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/aikakumoto/.claude/skills/**)",
+      "Read(//Users/aikakumoto/.claude/plugins/**)",
+      "Read(//Users/aikakumoto/.claude/**)",
+      "Bash(python3 scripts/search.py \"personal training gym fitness service trust dark\" --design-system -p \"Body Make Gym LEAD\" --variance 4 --motion 3 --density 4 -f markdown)",
+      "Bash(sed 's/lead-/pfx-/g' /Users/aikakumoto/dev/001_hpCreat_Lead/assets/js/main.js > \"/Users/aikakumoto/.claude/skills/local-store-site/assets/main.js\" && head -20 \"/Users/aikakumoto/.claude/skills/local-store-site/assets/main.js\" && echo \"---\" && grep -c \"pfx-\" \"/Users/aikakumoto/.claude/skills/local-store-site/assets/main.js\")",
+      "Bash(node --check assets/main.js)",
+      "Bash(echo \"JS syntax: $?\")",
+      "Bash(find ~/Downloads ~/Desktop ~/Documents ~/Pictures -maxdepth 3 -type f \\\\\\( -iname \"logo_001*\" -o -iname \"top00*\" \\\\\\) 2>/dev/null | head -30)",
+      "Bash(python3 -c \"import PIL; print\\('Pillow', PIL.__version__\\)\")",
+      "Bash(python3 -c \"import numpy; print\\('numpy', numpy.__version__\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 \"/private/tmp/claude-501/-Users-aikakumoto-dev-001-hpCreat-Lead/c7958663-e9b9-4a14-a03b-48864ec60835/scratchpad/prep_images.py\")",
+      "Bash(python3 -c \"import sys,json; print\\(json.dumps\\(sys.stdin.read\\(\\)\\)\\)\")",
+      "Bash(find ~/Downloads ~/Desktop ~/Pictures -maxdepth 3 -type f \\\\\\( -iname \"*001_1*\" -o -iname \"*_1.jpg\" -o -iname \"*_1.png\" \\\\\\) -newermt \"2026-08-10\" 2>/dev/null | head -20)",
+      "Bash(sips -g pixelWidth -g pixelHeight \"top001_1.jpg\")",
+      "Bash(sips -g pixelWidth -g pixelHeight \"top001.jpg\")",
+      "Bash(shasum ~/Downloads/top001_1.jpg top001_1.jpg)",
+      "Read(//Users/aikakumoto/dev/**)",
+      "Bash(grep -n \"gym-0\" price.html README.md | head -20; echo \"--- fonts ---\"; ls /System/Library/Fonts/ | grep -i \"hiragino\\\\|ヒラギノ\" )",
+      "Bash(python3 -)",
+      "Bash(python3 \"/private/tmp/claude-501/-Users-aikakumoto-dev-001-hpCreat-Lead/c7958663-e9b9-4a14-a03b-48864ec60835/scratchpad/prep_gym.py\")",
+      "Bash(echo \"--- exit $? ---\")",
+      "WebFetch(domain:r.goope.jp)",
+      "Bash(python3 -m http.server 8000)",
+      "Bash(ipconfig getifaddr *)",
+      "Bash(awk '{print $2}')",
+      "Bash(zip -r 001_hpCreat_Lead.zip 001_hpCreat_Lead -x \"*.DS_Store\" \"*/.*\")",
+      "Bash(brew install *)",
+      "Bash(ngrok http *)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

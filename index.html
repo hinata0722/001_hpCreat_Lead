@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Body Make Gym LEAD｜山口県下関市のパーソナルトレーニングジム</title>
+<meta name="description" content="山口県下関市の完全予約制・マンツーマン専門パーソナルトレーニングジム。健康と、10年後も動ける身体づくりを目的に、20代から70代まで幅広い方が通われています。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="lead-page">
+
+<a class="lead-skip" href="#lead-main">本文へスキップ</a>
+
+<!-- ============================================================
+     ① ヘッダー
+     ロゴ画像 ＋ アンカーナビ（ジム紹介／料金／アクセス／お問い合わせ）
+     ============================================================ -->
+<header class="lead-header" id="lead-header">
+  <div class="lead-header__inner">
+
+    <!-- ▼ロゴ：クライアント支給のロゴ画像に差し替え → {{ロゴ画像ファイル}}（支給済み logo_001.jpg）を切り抜き・透過処理して assets/img/logo.png として設置 -->
+    <a class="lead-header__brand" href="#lead-hero" aria-label="Body Make Gym LEAD トップへ">
+      <img class="lead-header__logo" src="assets/img/logo.png" alt="Body Make Gym LEAD" width="939" height="240" decoding="async">
+    </a>
+    <!-- ▲ロゴここまで -->
+
+    <button class="lead-header__toggle" type="button" aria-expanded="false" aria-controls="lead-nav" aria-label="メニューを開く">
+      <span class="lead-header__bar" aria-hidden="true"></span>
+      <span class="lead-header__bar" aria-hidden="true"></span>
+      <span class="lead-header__bar" aria-hidden="true"></span>
+    </button>
+
+    <nav class="lead-nav" id="lead-nav" aria-label="メインナビゲーション">
+      <ul class="lead-nav__list">
+        <li class="lead-nav__item"><a class="lead-nav__link" href="#lead-about">ジム紹介</a></li>
+        <li class="lead-nav__item"><a class="lead-nav__link" href="#lead-price">料金</a></li>
+        <li class="lead-nav__item"><a class="lead-nav__link" href="#lead-access">アクセス</a></li>
+        <li class="lead-nav__item"><a class="lead-nav__link" href="#lead-contact">お問い合わせ</a></li>
+      </ul>
+      <a class="lead-nav__tel" href="tel:090-9416-4555">
+        <svg class="lead-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .57 3.6 1 1 0 0 1-.25 1z"/></svg>
+        <span>090-9416-4555</span>
+      </a>
+    </nav>
+
+  </div>
+</header>
+
+<main class="lead-main" id="lead-main">
+
+<!-- ============================================================
+     ② ファーストビュー
+     ============================================================ -->
+<section class="lead-section lead-hero" id="lead-hero">
+  <!-- ▼メイン写真スライド：3秒ごとに自動で切り替わります。
+       写真を差し替えるときは assets/img/top-01.jpg 〜 top-03.jpg を同じ名前で上書きしてください。
+       枚数を変えるときは、この <img> の増減に合わせて style.css の
+       「ファーストビューの背景スライド」の animation-delay を調整してください。 -->
+  <div class="lead-hero__media" aria-hidden="true">
+    <img class="lead-hero__img" src="assets/img/top-01.jpg" alt="" width="1920" height="1439" decoding="async" fetchpriority="high">
+    <img class="lead-hero__img" src="assets/img/top-02.jpg" alt="" width="1920" height="1441" decoding="async">
+    <img class="lead-hero__img" src="assets/img/top-03.jpg" alt="" width="1920" height="1439" decoding="async">
+  </div>
+  <!-- ▲メイン写真スライドここまで -->
+  <div class="lead-hero__veil" aria-hidden="true"></div>
+
+  <div class="lead-hero__inner lead-container">
+    <p class="lead-hero__lead">山口県下関市｜完全予約制・マンツーマン専門のパーソナルトレーニングジム</p>
+    <!-- ▼キャッチコピー：<br> は「身体」が2行に割れるのを防ぐための改行位置です。文言を変えるときは改行位置も見直してください -->
+    <p class="lead-hero__subheading">ダイエットに特化したパーソナルトレーニングジム</p>
+    <h1 class="lead-hero__catch">10年後も動ける健康的な身体づくり</h1>
+    <!-- ▲キャッチコピーここまで -->
+
+    <div class="lead-hero__actions">
+      <a class="lead-btn lead-btn--fill" href="#lead-contact">体験・カウンセリングのご希望はこちら</a>
+      <a class="lead-btn lead-btn--line" href="#lead-price">料金を見る</a>
+    </div>
+  </div>
+
+  <span class="lead-hero__scroll" aria-hidden="true"></span>
+</section>
+
+<!-- ============================================================
+     ③ ジム紹介（法人としてのLEAD）
+     ============================================================ -->
+<section class="lead-section lead-about" id="lead-about" aria-labelledby="lead-about-h">
+  <div class="lead-container">
+
+    <header class="lead-head lead-reveal">
+      <p class="lead-head__eyebrow">About</p>
+      <h2 class="lead-head__title" id="lead-about-h">Body Make Gym LEAD について</h2>
+    </header>
+
+    <div class="lead-about__body lead-reveal">
+      <p class="lead-p">Body Make Gym LEAD は、山口県下関市にある完全予約制・個室のパーソナルトレーニングジムです。トレーナーがマンツーマンで担当し、他の方と一緒になることはありません。</p>
+      <p class="lead-p">目指しているのは、理想体重・見た目を維持し、健康を第一に長く動ける体でいること。そのための身体づくりをサポートします。</p>
+      <p class="lead-p">20代の方から70代の方まで、目的も体力も違う方が通われています。今のあなたの身体に合わせて、無理のないところから始められます。</p>
+    </div>
+
+    <!-- ▼館内のご案内：写真を差し替えるときは assets/img/gym-01.jpg 〜 gym-05.jpg を同じ名前で上書きしてください。
+         キャプションは「何が写っているか」だけを書く方針です。
+         利用条件（自主トレスペースはパーソナルご利用の方限定／お預かりは要相談）は
+         打ち合わせで確定した内容のみを添えています。文言を変える際はご注意ください。 -->
+    <div class="lead-about__block lead-reveal">
+      <h3 class="lead-h3">館内のご案内</h3>
+
+      <figure class="lead-gallery__lead">
+        <div class="lead-imgbox lead-imgbox--32">
+          <img class="lead-img" src="assets/img/gym-01.jpg" alt="Body Make Gym LEAD の店内全体。トレーニングマシンが並ぶ明るいフロア" width="1600" height="1067" loading="lazy" decoding="async">
+        </div>
+        <figcaption class="lead-gallery__cap">ジム全体</figcaption>
+      </figure>
+
+      <p class="lead-about__more lead-reveal">
+        <a class="lead-textlink" href="gallery.html">
+          館内の詳しい様子はこちら
+          <svg class="lead-icon lead-icon--sm" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 3h7v7h-2V6.4l-8.3 8.3-1.4-1.4L17.6 5H14zM5 5h5v2H6v11h11v-4h2v6H4V5z"/></svg>
+        </a>
+      </p>
+    </div>
+    <!-- ▲館内のご案内ここまで -->
+
+    <!-- ▼サービス内容：項目を増減する場合はこのリストを編集 -->
+    <div class="lead-about__block lead-reveal">
+      <h3 class="lead-h3">サービス内容</h3>
+      <ul class="lead-tags">
+        <li class="lead-tags__item">筋力トレーニング</li>
+        <li class="lead-tags__item">体幹トレーニング</li>
+        <li class="lead-tags__item">ストレッチ（筋肉を伸ばす）</li>
+        <li class="lead-tags__item">筋膜リリース（筋膜を柔らかく）</li>
+        <li class="lead-tags__item">出張トレーニング</li>
+      </ul>
+    </div>
+    <!-- ▲サービス内容ここまで -->
+
+    <!-- ▼こんなお悩みの方へ：項目を増減する場合はこのリストを編集 -->
+    <div class="lead-about__block lead-reveal">
+      <h3 class="lead-h3">こんなお悩みの方へ</h3>
+      <ul class="lead-checks">
+        <li class="lead-checks__item">リバウンドしにくい身体づくりをしたい</li>
+        <li class="lead-checks__item">結婚式やウェディングフォトで綺麗にドレスを着たい</li>
+        <li class="lead-checks__item">産後ダイエット</li>
+        <li class="lead-checks__item">姿勢矯正、肩こり、腰痛を改善したい</li>
+        <li class="lead-checks__item">健康診断で良い数値を出したい</li>
+        <li class="lead-checks__item">トレーニングの正しいフォームやメニューを知りたい</li>
+      </ul>
+    </div>
+    <!-- ▲こんなお悩みの方へここまで -->
+
+  </div>
+</section>
+
+<!-- ============================================================
+     ④ スタッフ紹介（個人）
+     ※ここは「サービス説明」を書かない。人柄を伝えるセクション。
+     ============================================================ -->
+<section class="lead-section lead-staff" id="lead-staff" aria-labelledby="lead-staff-h">
+  <div class="lead-container">
+
+    <header class="lead-head lead-reveal">
+      <p class="lead-head__eyebrow">Staff</p>
+      <h2 class="lead-head__title" id="lead-staff-h">スタッフ紹介</h2>
+    </header>
+
+    <div class="lead-staff__grid lead-reveal">
+      <div class="lead-staff__photo lead-imgbox lead-imgbox--45">
+        <!-- ▼トレーナー写真：顔が分かる写真に差し替え（4:5） -->
+        <img class="lead-img" src="assets/img/sorada.png" alt="パーソナルトレーナー 空田（そらだ）" width="800" height="1000" loading="lazy" decoding="async">
+        <!-- ▲トレーナー写真ここまで -->
+      </div>
+
+      <div class="lead-staff__body">
+        <!-- ▼トレーナー氏名・肩書：ここを書き換え -->
+        <p class="lead-staff__role">パーソナルトレーナー</p>
+        <p class="lead-staff__name">空田（そらだ）</p>
+        <!-- ▲トレーナー氏名・肩書ここまで -->
+
+        <dl class="lead-staff__dl">
+          <dt class="lead-staff__dt">経歴</dt>
+          <dd class="lead-staff__dd">大手パーソナルジムでトレーニング指導の経験を積み、2016年に独立。以来、ダイエット指導を中心に実績を重ねてきました。</dd>
+
+          <dt class="lead-staff__dt">パーソナルトレーナー歴</dt>
+          <dd class="lead-staff__dd">9年</dd>
+
+          <dt class="lead-staff__dt">想い</dt>
+          <dd class="lead-staff__dd">独立してからずっと考えているのは、「10年後、20年後も自分の脚で歩けているか」ということです。数字だけを追いかけると、身体はどこかで無理をします。だから私は、今の体力と生活に合うところから始めて、続けられる形に整えていくやり方を選んでいます。トレーニングが初めての方でも、身体を動かすのが苦手な方でも大丈夫です。</dd>
+
+          <dt class="lead-staff__dt">人柄</dt>
+          <dd class="lead-staff__dd">3児の親です。子育てをしていると、体力がないと一日が回らないことを毎日実感します。だからこそ「健康のために身体を動かす」という言葉が、自分にとってもお客様にとっても他人事ではありません。性格は前向きで、うまくいかない日があっても一緒に次の手を考えるほうです。まずは世間話からで構いませんので、気軽に話しに来てください。</dd>
+        </dl>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     ⑤ 選ばれる理由（強み）
+     ============================================================ -->
+<section class="lead-section lead-reasons" id="lead-reasons" aria-labelledby="lead-reasons-h">
+  <div class="lead-container">
+
+    <header class="lead-head lead-reveal">
+      <p class="lead-head__eyebrow">Reasons</p>
+      <h2 class="lead-head__title" id="lead-reasons-h">選ばれる理由</h2>
+    </header>
+
+    <!-- ▼強みカード：4枚。文章を書き換える場合はこの中を編集 -->
+    <ul class="lead-cards lead-reveal">
+
+      <li class="lead-card">
+        <h3 class="lead-card__title">健康と長寿命に特化</h3>
+        <p class="lead-card__text">目的は、筋肉を大きくすることではありません。年齢を重ねても自分の脚で歩き、自分で身の回りのことができる身体を保つことです。日常生活で使う動きを土台に、姿勢と身体の使い方から整えていきます。</p>
+      </li>
+
+      <li class="lead-card">
+        <h3 class="lead-card__title">マンツーマン専門</h3>
+        <p class="lead-card__text">集団指導は行わず、パーソナルトレーニングだけで経験を積んできました。2016年の独立以来続けており、下関市内では最長クラスのパーソナル歴です。お一人おひとりの身体を見て、その場でメニューを調整します。</p>
+      </li>
+
+      <li class="lead-card">
+        <h3 class="lead-card__title">自主トレスペースをご用意</h3>
+        <p class="lead-card__text">パーソナルトレーニングをご利用の方に限り、自主トレスペースを低価格でお使いいただけます。一般開放はしておりません。指導で覚えたフォームを、ご自身のペースで復習する場としてご活用ください。</p>
+      </li>
+
+      <li class="lead-card">
+        <h3 class="lead-card__title">保育士在籍・キッズスペースあり（要相談）</h3>
+        <p class="lead-card__text">保育士が在籍しており、キッズスペースをご用意しています。お預かりの可否は日時によって異なるため、ご予約の際にご相談ください。3歳未満のお子様がいるパパママには、トレーニングウェア・タオル・飲み物・シューズのお預かりを無料でご提供しています。</p>
+      </li>
+
+    </ul>
+    <!-- ▲強みカードここまで -->
+
+  </div>
+</section>
+
+<!-- ============================================================
+     ⑥ 料金（トップページは最低価格のみ）
+     ============================================================ -->
+<section class="lead-section lead-price" id="lead-price" aria-labelledby="lead-price-h">
+  <div class="lead-container">
+
+    <header class="lead-head lead-reveal">
+      <p class="lead-head__eyebrow">Price</p>
+      <h2 class="lead-head__title" id="lead-price-h">料金</h2>
+    </header>
+
+    <div class="lead-price__box lead-reveal">
+      <!-- ▼料金：ここの数字を書き換えればトップページの料金表示が変わります -->
+      <p class="lead-price__label">パーソナルトレーニング</p>
+      <p class="lead-price__figure"><span class="lead-price__num">¥4,250</span><span class="lead-price__from">〜（税込）</span></p>
+      <!-- ▲料金ここまで -->
+
+      <p class="lead-price__note">※プラン・時間・回数により料金が異なります</p>
+      <p class="lead-price__note">※表示価格はすべて税込です</p>
+
+      <a class="lead-btn lead-btn--fill lead-price__cta" href="price.html">料金の詳細はこちら</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     ⑦ お客様の声（Googleクチコミ 2〜3件のみ）
+     ============================================================ -->
+<section class="lead-section lead-voice" id="lead-voice" aria-labelledby="lead-voice-h">
+  <div class="lead-container">
+
+    <header class="lead-head lead-reveal">
+      <p class="lead-head__eyebrow">Reviews</p>
+      <h2 class="lead-head__title" id="lead-voice-h">お客様の声</h2>
+    </header>
+
+    <!-- ▼クチコミ：Googleクチコミの本文と投稿者名を貼り付けてください。件数は最大3件まで。
+         星の数を4つにする場合は、5つ目の <svg> に class="lead-star lead-star--empty" を追加します。 -->
+    <ul class="lead-voices lead-reveal">
+
+      <li class="lead-voice-card">
+        <p class="lead-stars" role="img" aria-label="5段階中5">
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+        </p>
+        <blockquote class="lead-voice-card__text"><p>{{Googleクチコミ本文1}}</p></blockquote>
+        <p class="lead-voice-card__name">{{投稿者名1}}</p>
+      </li>
+
+      <li class="lead-voice-card">
+        <p class="lead-stars" role="img" aria-label="5段階中5">
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+        </p>
+        <blockquote class="lead-voice-card__text"><p>{{Googleクチコミ本文2}}</p></blockquote>
+        <p class="lead-voice-card__name">{{投稿者名2}}</p>
+      </li>
+
+      <li class="lead-voice-card">
+        <p class="lead-stars" role="img" aria-label="5段階中5">
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+          <svg class="lead-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z"/></svg>
+        </p>
+        <blockquote class="lead-voice-card__text"><p>{{Googleクチコミ本文3}}</p></blockquote>
+        <p class="lead-voice-card__name">{{投稿者名3}}</p>
+      </li>
+
+    </ul>
+    <!-- ▲クチコミここまで -->
+
+    <p class="lead-voice__more lead-reveal">
+      <a class="lead-textlink" href="https://maps.app.goo.gl/gR8Fu1kC1TKGGPWx8" target="_blank" rel="noopener noreferrer">
+        Googleマップで他のクチコミを見る
+        <svg class="lead-icon lead-icon--sm" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 3h7v7h-2V6.4l-8.3 8.3-1.4-1.4L17.6 5H14zM5 5h5v2H6v11h11v-4h2v6H4V5z"/></svg>
+      </a>
+    </p>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     ⑧ アクセス
+     ============================================================ -->
+<section class="lead-section lead-access" id="lead-access" aria-labelledby="lead-access-h">
+  <div class="lead-container">
+
+    <header class="lead-head lead-reveal">
+      <p class="lead-head__eyebrow">Access</p>
+      <h2 class="lead-head__title" id="lead-access-h">アクセス</h2>
+    </header>
+
+    <div class="lead-access__grid">
+
+      <div class="lead-access__mapcol lead-reveal">
+        <!-- ▼地図：Googleマップの「地図を埋め込む」で取得した <iframe> をこの下に貼り付け -->
+        <div class="lead-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.9449021187697!2d130.9245429!3d34.007039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3543a2d39fefffff%3A0x330028101c3e8096!2sBody%20Make%20Gym%20LEAD!5e1!3m2!1sja!2sjp!4v1787493306705!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <!-- ▲地図ここまで -->
+
+        <a class="lead-btn lead-btn--line lead-access__mapbtn" href="https://maps.app.goo.gl/gR8Fu1kC1TKGGPWx8" target="_blank" rel="noopener noreferrer">
+          Googleマップで開く
+          <svg class="lead-icon lead-icon--sm" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 3h7v7h-2V6.4l-8.3 8.3-1.4-1.4L17.6 5H14zM5 5h5v2H6v11h11v-4h2v6H4V5z"/></svg>
+        </a>
+      </div>
+
+      <!-- ▼店舗情報：住所・営業時間・定休日などはこの表を書き換え -->
+      <div class="lead-infocard lead-reveal">
+        <dl class="lead-infocard__dl">
+
+          <div class="lead-infocard__row">
+            <dt class="lead-infocard__dt">住所</dt>
+            <dd class="lead-infocard__dd">〒751-0865 山口県下関市綾羅木新町１丁目５−１３ 2F</dd>
+          </div>
+
+          <div class="lead-infocard__row">
+            <dt class="lead-infocard__dt">電話番号</dt>
+            <dd class="lead-infocard__dd"><a class="lead-textlink" href="tel:090-9416-4555">090-9416-4555</a></dd>
+          </div>
+
+          <div class="lead-infocard__row">
+            <dt class="lead-infocard__dt">営業時間</dt>
+            <dd class="lead-infocard__dd">9時〜22時</dd>
+          </div>
+
+          <div class="lead-infocard__row">
+            <dt class="lead-infocard__dt">定休日</dt>
+            <dd class="lead-infocard__dd">日曜日</dd>
+          </div>
+
+          <div class="lead-infocard__row">
+            <dt class="lead-infocard__dt">駐車場</dt>
+            <dd class="lead-infocard__dd">あり・3台</dd>
+          </div>
+
+          <div class="lead-infocard__row">
+            <dt class="lead-infocard__dt">予約</dt>
+            <dd class="lead-infocard__dd">完全予約制</dd>
+          </div>
+
+          <div class="lead-infocard__row">
+            <dt class="lead-infocard__dt">お子様連れ</dt>
+            <dd class="lead-infocard__dd">保育士在籍・キッズスペースあり（要相談）</dd>
+          </div>
+
+        </dl>
+      </div>
+      <!-- ▲店舗情報ここまで -->
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     フェーズ2：外部の無料予約サービスを埋め込む予定
+     空き状況カレンダーの設置枠。今回は非表示（hidden）にしています。
+     公開する際は下の <section> から hidden 属性を外し、
+     lead-schedule__slot の中に予約サービスの埋め込みコードを貼り付けてください。
+     ============================================================ -->
+<section class="lead-section lead-schedule" id="lead-schedule" aria-labelledby="lead-schedule-h" hidden>
+  <div class="lead-container">
+    <header class="lead-head">
+      <p class="lead-head__eyebrow">Schedule</p>
+      <h2 class="lead-head__title" id="lead-schedule-h">空き状況</h2>
+    </header>
+    <div class="lead-schedule__slot">
+      <!-- フェーズ2：外部の無料予約サービスを埋め込む予定 -->
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ⑨ お問い合わせ／CTA
+     ※メールフォームは設置しない（迷惑メール対策のため意図的に排除）
+     ============================================================ -->
+<section class="lead-section lead-contact" id="lead-contact" aria-labelledby="lead-contact-h">
+  <div class="lead-container">
+
+    <div class="lead-contact__inner lead-reveal">
+      <h2 class="lead-contact__title" id="lead-contact-h">体験・カウンセリングのご希望はこちら</h2>
+      <p class="lead-contact__text">まずはお気軽にご相談ください。お電話またはLINEでご連絡いただけます。</p>
+
+      <div class="lead-contact__actions">
+        <!-- ▼電話番号：ここを書き換えると表示とタップ発信の両方が変わります -->
+        <a class="lead-btn lead-btn--fill lead-btn--lg" href="tel:090-9416-4555">
+          <svg class="lead-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .57 3.6 1 1 0 0 1-.25 1z"/></svg>
+          <span class="lead-btn__main">電話でお問い合わせ</span>
+        </a>
+        <!-- ▲電話番号ここまで -->
+      </div>
+
+      <!-- ▼LINE QRコード：PCで表示 -->
+      <figure class="lead-contact__qr">
+        <img class="lead-contact__qrimg" src="assets/img/qrcode.png" alt="LINE公式アカウントの友だち追加用QRコード" width="240" height="240" loading="lazy" decoding="async">
+        <figcaption class="lead-contact__qrcap">スマートフォンで読み取ると<br>LINE公式アカウントを追加できます</figcaption>
+      </figure>
+      <!-- ▲LINE QRコードここまで -->
+
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     ⑩ フッター
+     ============================================================ -->
+<footer class="lead-footer" id="lead-footer">
+  <div class="lead-container lead-footer__inner">
+
+    <div class="lead-footer__brand">
+      <img class="lead-footer__logo" src="assets/img/logo.png" alt="Body Make Gym LEAD" width="939" height="240" loading="lazy" decoding="async">
+      <p class="lead-footer__meta">Body Make Gym LEAD</p>
+      <p class="lead-footer__meta">山口県下関市</p>
+      <p class="lead-footer__meta"><a class="lead-textlink" href="tel:090-9416-4555">090-9416-4555</a></p>
+
+      <a class="lead-footer__sns" href="https://www.instagram.com/bodymakegymlead.shimonoseki/" target="_blank" rel="noopener noreferrer" aria-label="Instagram（新しいタブで開く）">
+        <svg class="lead-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.2c3.2 0 3.6 0 4.8.07 1.2.05 1.8.25 2.2.42.6.22 1 .48 1.4.9.42.42.68.82.9 1.4.17.4.37 1 .42 2.2.07 1.2.07 1.6.07 4.8s0 3.6-.07 4.8c-.05 1.2-.25 1.8-.42 2.2a3.9 3.9 0 0 1-.9 1.4c-.42.42-.82.68-1.4.9-.4.17-1 .37-2.2.42-1.2.07-1.6.07-4.8.07s-3.6 0-4.8-.07c-1.2-.05-1.8-.25-2.2-.42a3.9 3.9 0 0 1-1.4-.9 3.9 3.9 0 0 1-.9-1.4c-.17-.4-.37-1-.42-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.8c.05-1.2.25-1.8.42-2.2.22-.6.48-1 .9-1.4.42-.42.82-.68 1.4-.9.4-.17 1-.37 2.2-.42C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.14 0-3.5.01-4.74.07-1.14.05-1.76.24-2.17.4-.55.21-.94.47-1.35.88-.41.41-.67.8-.88 1.35-.16.41-.35 1.03-.4 2.17C2.4 10.1 2.4 10.46 2.4 12s.01 1.9.07 3.14c.05 1.14.24 1.76.4 2.17.21.55.47.94.88 1.35.41.41.8.67 1.35.88.41.16 1.03.35 2.17.4 1.24.06 1.6.07 4.74.07s3.5-.01 4.74-.07c1.14-.05 1.76-.24 2.17-.4.55-.21.94-.47 1.35-.88.41-.41.67-.8.88-1.35.16-.41.35-1.03.4-2.17.06-1.24.07-1.6.07-3.14s-.01-1.9-.07-3.14c-.05-1.14-.24-1.76-.4-2.17a3.6 3.6 0 0 0-.88-1.35 3.6 3.6 0 0 0-1.35-.88c-.41-.16-1.03-.35-2.17-.4C15.5 4.01 15.14 4 12 4zm0 3.03a4.97 4.97 0 1 1 0 9.94 4.97 4.97 0 0 1 0-9.94zm0 8.2a3.23 3.23 0 1 0 0-6.46 3.23 3.23 0 0 0 0 6.46zm6.34-8.4a1.16 1.16 0 1 1-2.32 0 1.16 1.16 0 0 1 2.32 0z"/></svg>
+        <span>Instagram</span>
+      </a>
+    </div>
+
+    <nav class="lead-footer__nav" aria-label="フッターナビゲーション">
+      <ul class="lead-footer__list">
+        <li><a class="lead-footer__link" href="#lead-about">ジム紹介</a></li>
+        <li><a class="lead-footer__link" href="#lead-staff">スタッフ紹介</a></li>
+        <li><a class="lead-footer__link" href="#lead-reasons">選ばれる理由</a></li>
+        <li><a class="lead-footer__link" href="#lead-price">料金</a></li>
+        <li><a class="lead-footer__link" href="price.html">料金の詳細</a></li>
+        <li><a class="lead-footer__link" href="#lead-voice">お客様の声</a></li>
+        <li><a class="lead-footer__link" href="#lead-access">アクセス</a></li>
+        <li><a class="lead-footer__link" href="#lead-contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+
+  </div>
+  <p class="lead-footer__copy">&copy; Body Make Gym LEAD</p>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
