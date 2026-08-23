@@ -101,7 +101,7 @@ html {
   background-color: var(--lead-ink);
   color: var(--lead-silver);
   font-family: var(--lead-font-body);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.9;
   font-feature-settings: "palt" 1;
   -webkit-font-smoothing: antialiased;
@@ -109,7 +109,7 @@ html {
 }
 
 @media (min-width: 1024px) {
-  .lead-page { font-size: 17px; }
+  .lead-page { font-size: 19px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -246,7 +246,7 @@ html {
 .lead-p:last-child { margin-bottom: 0; }
 
 @media (min-width: 1024px) {
-  .lead-p { font-size: 1.0625rem; }
+  .lead-p { font-size: 1.15rem; }
 }
 
 /* --- ボタン：タップ領域は高さ48px以上を確保 --- */
