@@ -1080,10 +1080,13 @@ html {
 
 .lead-voices {
   display: grid;
-  gap: var(--lead-s4);
-  list-style: none;
+  gap: var(--lead-s5);
+  grid-template-columns: 1fr;
   margin: 0;
   padding: 0;
+}
+@media (min-width: 768px) {
+  .lead-voices { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--lead-s5); }
 }
 @media (min-width: 1024px) {
   .lead-voices { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--lead-s5); }
@@ -1098,6 +1101,7 @@ html {
   border: 1px solid var(--lead-line);
   border-radius: 2px;
 }
+
 
 .lead-stars {
   display: flex;
@@ -1131,6 +1135,7 @@ html {
   font-size: 0.8125rem;
   letter-spacing: 0.06em;
 }
+
 
 .lead-voice__more {
   margin: var(--lead-s6) 0 0;
@@ -1329,6 +1334,23 @@ html {
     line-height: 1.8;
     letter-spacing: 0.04em;
   }
+}
+
+/* LINE公式アカウント案内 */
+.lead-contact__line-text {
+  text-align: center;
+  color: var(--lead-white);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: var(--lead-s7) 0 var(--lead-s4);
+  letter-spacing: 0.02em;
+}
+
+/* LINE友達追加ボタン：SPで表示 */
+.lead-contact__line { display: flex; justify-content: center; margin: var(--lead-s7) 0 0; }
+.lead-contact__line--pc { display: none; }
+@media (min-width: 1024px) {
+  .lead-contact__line { display: none; }
 }
 
 
