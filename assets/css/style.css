@@ -1310,9 +1310,9 @@ html {
 }
 
 /* QRコードはPCで表示（スマホはボタンが主役） */
-.lead-contact__qr { display: none; }
+.lead-contact__qr--pc { display: none; }
 @media (min-width: 1024px) {
-  .lead-contact__qr {
+  .lead-contact__qr--pc {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1328,7 +1328,7 @@ html {
     padding: 8px;
     border-radius: 2px;
   }
-  .lead-contact__qrcap {
+  .lead-contact__qr--pc .lead-contact__qrcap {
     color: var(--lead-silver-dim);
     font-size: 0.75rem;
     line-height: 1.8;
