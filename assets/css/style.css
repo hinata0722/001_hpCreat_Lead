@@ -1688,6 +1688,22 @@ html {
   line-height: 1.95;
 }
 
+/* 2カラムギャラリー */
+.lead-gallery-2col {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--lead-s7);
+}
+@media (min-width: 768px) {
+  .lead-gallery-2col {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--lead-s8);
+  }
+}
+
 /* CTA ボックス */
 .lead-cta-section { background-color: var(--lead-ink-2); }
 
