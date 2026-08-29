@@ -946,7 +946,7 @@ html {
 /* ==========================================================================
    08. 選ばれる理由
    ========================================================================== */
-.lead-reasons { background-color: #FFFFFF; }
+.lead-reasons { background-color: var(--lead-ink); }
 
 .lead-cards {
   display: grid;
@@ -965,7 +965,7 @@ html {
   flex-direction: column;
   height: 100%;
   padding: var(--lead-s6);
-  background-color: #F8F8F8;
+  background-color: #FFFFFF;
   border: 1px solid #E0E0E0;
   border-radius: 2px;
   transition: border-color var(--lead-dur) var(--lead-ease),
@@ -1078,7 +1078,7 @@ html {
 /* ==========================================================================
    10. お客様の声
    ========================================================================== */
-.lead-voice { background-color: #FFFFFF; }
+.lead-voice { background-color: var(--lead-ink); }
 
 .lead-voices {
   display: grid;
@@ -1099,7 +1099,7 @@ html {
   flex-direction: column;
   height: 100%;
   padding: var(--lead-s6);
-  background-color: #F8F8F8;
+  background-color: #FFFFFF;
   border: 1px solid #E0E0E0;
   border-radius: 2px;
   color: #000000;
