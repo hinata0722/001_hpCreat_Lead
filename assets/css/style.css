@@ -965,7 +965,7 @@ html {
   flex-direction: column;
   height: 100%;
   padding: var(--lead-s6);
-  background-color: #FFFFFF;
+  background-color: #F8F8F8;
   border: 1px solid #E0E0E0;
   border-radius: 2px;
   transition: border-color var(--lead-dur) var(--lead-ease),
@@ -1099,7 +1099,7 @@ html {
   flex-direction: column;
   height: 100%;
   padding: var(--lead-s6);
-  background-color: #FFFFFF;
+  background-color: #F8F8F8;
   border: 1px solid #E0E0E0;
   border-radius: 2px;
   color: #000000;
