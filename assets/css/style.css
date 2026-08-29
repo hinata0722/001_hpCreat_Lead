@@ -965,16 +965,10 @@ html {
   flex-direction: column;
   height: 100%;
   padding: var(--lead-s6);
-  background-color: #F8F8F8;
-  border: 1px solid #E0E0E0;
+  background-color: #EBEBEB;
+  border: 1px solid #D8D8D8;
   border-radius: 2px;
-  transition: border-color var(--lead-dur) var(--lead-ease),
-              background-color var(--lead-dur) var(--lead-ease);
-  color: #000000;
-}
-.lead-card:hover {
-  border-color: var(--lead-sand-dim);
-  background-color: var(--lead-surface-2);
+  color: #333333;
 }
 @media (min-width: 1024px) {
   .lead-card { padding: var(--lead-s7); }
@@ -982,7 +976,7 @@ html {
 
 .lead-card__title {
   margin: 0 0 var(--lead-s4);
-  color: #000000;
+  color: #222222;
   font-family: var(--lead-font-body);
   font-size: 1.0625rem;
   font-weight: 700;
@@ -1099,10 +1093,10 @@ html {
   flex-direction: column;
   height: 100%;
   padding: var(--lead-s6);
-  background-color: #F8F8F8;
-  border: 1px solid #E0E0E0;
+  background-color: #EBEBEB;
+  border: 1px solid #D8D8D8;
   border-radius: 2px;
-  color: #000000;
+  color: #333333;
 }
 
 
