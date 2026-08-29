@@ -965,7 +965,7 @@ html {
   flex-direction: column;
   height: 100%;
   padding: var(--lead-s6);
-  background-color: #D8CBB4;
+  background-color: #ECECEC;
   border: 1px solid #D8D8D8;
   border-radius: 2px;
   color: #333333;
@@ -1093,7 +1093,7 @@ html {
   flex-direction: column;
   height: 100%;
   padding: var(--lead-s6);
-  background-color: #D8CBB4;
+  background-color: #ECECEC;
   border: 1px solid #D8D8D8;
   border-radius: 2px;
   color: #333333;
