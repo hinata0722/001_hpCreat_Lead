@@ -946,7 +946,7 @@ html {
 /* ==========================================================================
    08. 選ばれる理由
    ========================================================================== */
-.lead-reasons { background-color: var(--lead-ink); }
+.lead-reasons { background-color: #FFFFFF; }
 
 .lead-cards {
   display: grid;
@@ -965,11 +965,12 @@ html {
   flex-direction: column;
   height: 100%;
   padding: var(--lead-s6);
-  background-color: var(--lead-surface);
-  border: 1px solid var(--lead-line);
+  background-color: #F8F8F8;
+  border: 1px solid #E0E0E0;
   border-radius: 2px;
   transition: border-color var(--lead-dur) var(--lead-ease),
               background-color var(--lead-dur) var(--lead-ease);
+  color: #000000;
 }
 .lead-card:hover {
   border-color: var(--lead-sand-dim);
@@ -981,7 +982,7 @@ html {
 
 .lead-card__title {
   margin: 0 0 var(--lead-s4);
-  color: var(--lead-white);
+  color: #000000;
   font-family: var(--lead-font-body);
   font-size: 1.0625rem;
   font-weight: 700;
@@ -1003,7 +1004,7 @@ html {
 
 .lead-card__text {
   margin: 0;
-  color: var(--lead-silver);
+  color: #333333;
   font-size: 0.9375rem;
   line-height: 1.95;
 }
@@ -1077,7 +1078,7 @@ html {
 /* ==========================================================================
    10. お客様の声
    ========================================================================== */
-.lead-voice { background-color: var(--lead-ink); }
+.lead-voice { background-color: #FFFFFF; }
 
 .lead-voices {
   display: grid;
@@ -1098,9 +1099,10 @@ html {
   flex-direction: column;
   height: 100%;
   padding: var(--lead-s6);
-  background-color: var(--lead-surface);
-  border: 1px solid var(--lead-line);
+  background-color: #F8F8F8;
+  border: 1px solid #E0E0E0;
   border-radius: 2px;
+  color: #000000;
 }
 
 
@@ -1122,7 +1124,7 @@ html {
   margin: 0 0 var(--lead-s5);
   padding: 0;
   border: 0;
-  color: var(--lead-silver);
+  color: #333333;
   font-size: 0.9375rem;
   line-height: 1.95;
 }
@@ -1131,8 +1133,8 @@ html {
 .lead-voice-card__name {
   margin: 0;
   padding-top: var(--lead-s4);
-  border-top: 1px solid var(--lead-line-soft);
-  color: var(--lead-silver-dim);
+  border-top: 1px solid #D0D0D0;
+  color: #666666;
   font-size: 0.8125rem;
   letter-spacing: 0.06em;
 }
