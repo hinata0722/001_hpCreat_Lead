@@ -1070,6 +1070,7 @@ html {
 .lead-price__cta { margin-top: var(--lead-s7); }
 @media (max-width: 639px) {
   .lead-price__cta { display: flex; width: 100%; }
+  .lead-head__title { font-size: clamp(1.4rem, 3.8vw, 2.4rem); }
 }
 
 
